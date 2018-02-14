@@ -1,0 +1,786 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{  
+    background-image: url(../img/bg_img.jpg);
+    min-height: 1500px;
+
+}
+
+#header_part {
+    width: 100%;
+    min-height: 120px;
+    overflow: hidden;
+  
+}
+
+#search_option {
+    margin-left: 9px;
+    background-color: #25A5DE;
+    border: none;
+    color: white;
+    width: 63px;
+    min-height: 19px;
+}
+
+#slider {
+}
+
+#content {
+}
+
+#View_img_Gallery {
+    margin-left: 293px;
+    margin-top: 114px;
+    min-height: 10px;
+    width: 137px;
+}
+
+#View_img_Gallery a{
+    text-decoration: none;
+}
+#feature_caption {
+        margin-left: 223px;
+}
+
+#eamil_address {
+    height: 26px;
+    border-radius: 6px;
+    border: none;
+}
+
+#subscribe_button {
+        height: 26px;
+    border-radius: 6px;
+    border: none;
+}
+
+#footer_part {
+}
+
+.wrapper_header {
+    width: 1206px;
+    min-height: 120px;
+    background-color: #2A2A2A;
+    margin: 0px auto;
+    margin-top: 10px;
+    
+}
+
+.header_one {
+    width: 1207px
+    min-height: 60px;
+}
+
+.logo {
+    width: 118px;
+    min-height: 108px;
+    min-height: 91 px;
+    border: 2px solid black;
+    padding: 6px;
+  
+}
+.navigator{
+    min-height: 56px;
+    width: 1206px;
+}
+
+.navbar {
+    width: 1097px;
+    min-height: 58px;
+    margin-top: -89px;
+    margin-left: 133px;
+  
+}
+.navbar ul {}
+.navbar ul li {
+list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    color: white;
+    padding: 30px 49.4px;
+    border: 1px solid black;
+    margin-top: -35px;
+    font-weight: bold;
+    transition: 1s;
+       
+}
+.navbar ul li a:hover{ background-color: gray;
+    
+}
+
+
+
+.form_group {
+    float: right;
+    margin-right: 23px;
+}
+
+.search_text {
+    float: left;
+}
+
+.header_two {
+    min-height: 78px;
+    width: 1205px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.visitors_option{
+    min-height: 35px;
+    width: 1207px;
+}
+.visitors_option ul{}
+.visitors_option ul li{
+    list-style: none;
+}
+.visitors_option ul li a{
+    text-decoration: none;
+    color:#90BEE9;
+    float: left;
+    border: right;
+    /* border-right: brown; */
+    border-color: blue;
+    padding: 24px 26px;
+    font-weight: bold;
+}
+.visitors_option ul li a:hover{
+    color:white;
+}
+
+.share_send{
+    float: right;
+    margin-right: 63px;
+    margin-top: -23px;
+    min-height: 15px;
+    width: 143px;
+    
+
+}
+.send {
+    color: white;
+    list-style: none;
+}
+
+.send ul{}
+.send ul li{
+    list-style: none;
+}
+.send ul li a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-right: 18px;
+    
+}
+.send ul li a:hover{}
+.share {
+    color: white;
+    
+   
+    
+}
+
+.share ul{}
+.share ul li{
+    list-style: none;
+}
+.share ul li a{
+    text-decoration: none;
+    color: white;
+}
+.share ul li a:hover{}
+
+
+.wrapper {
+width: 1206px;
+margin: 0px auto;
+margin-top: 10px;
+position: relative;
+}
+
+.events {
+    min-height: 26px;
+    width:854px;
+    background-color: #1E1E1E;
+    
+    
+}
+
+.events_news{}
+.events_news a{
+    text-decoration: none;
+    color: #96ACC2;
+}
+
+.mission_caption{
+    width: 450px;
+    text-align: justify;
+    color: white;
+    background-color: gray;
+    padding: 6px 9px;
+}
+.slider_image {
+    min-height: 200px;
+    width: 458px;
+/*    border: 1px solid gray;*/
+    padding: 10px;
+    background-color: gray;
+}
+
+.caption {
+    color: black;
+    background-color: gray;
+    min-height: 9px;
+    width: 448px;
+    text-align: justify;
+    font-size: 10pt;
+    margin-top: -4px;
+    padding: 5px 10px
+}
+
+.stories {
+    position: absolute;
+    width: 361px;
+    min-height: 357px;
+    top: 27px;
+    left: 486px;
+    color: white;
+    background-color: gray;
+    margin-top: 9px
+    
+}
+
+.single_story {
+    min-height: 55px;
+    width: 351px;
+    padding: 0px 5px;
+    /* border: 1px solid white; */
+    margin-top: 9px;
+    background-color: black
+}
+
+.story_heading {
+        color: #90BEE9;
+    font-size: 13pt;
+}
+
+.story_brief {
+    font-size: 11pt;
+    text-align: justify;
+    color: #898989;
+}
+
+.More_stories {
+    width: 141px;
+    min-height: 15px;
+    background-color: #2E2E2E;
+    float: right;
+    margin-top: 5px;
+}
+.More_stories a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.sidebar_info {
+    min-height: 159px;
+    width: 354px;
+    position: absolute;
+    left: 853px;
+    top: -1px;
+}
+
+.wrapper_content {
+width: 1206px;
+margin: 0px auto;
+}
+
+.wrapper_content_one {
+    position: relative;
+    
+}
+
+.nasa_images {
+    top: 4px;
+    width: 443px;
+    min-height: 291px;
+    position: absolute;
+    border: 1px solid gray;
+    background-color: #003466;
+    padding-left: 10px;
+}
+
+.images_heading{
+        color: white;
+    padding: 7px 12px;
+    
+}
+.image_title_option {
+    margin-left: 10px;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.image_title_option a{
+    text-decoration: none;
+}
+.image_title_option a:hover{
+    background-color: white;
+}
+.image_caption_day {
+}
+
+.fly_marines {
+        color: white;
+    
+}
+.img_thum{
+        margin-top: -56px
+}
+.Img_description {
+    color: gray;
+    font-weight: normal;
+    margin-bottom: -48px;
+}
+
+.nasa_multimedia {
+    min-height: 391px;
+    position: absolute;
+    width: 397px;
+    background-color: #003466;
+    left: 449px;
+    border: 1px solid black;
+    top: 4px;
+}
+
+.multimedia_heading{
+        color: white;
+    
+}
+.videos {
+        width: 397px;
+    min-height: 47px;
+}
+
+.nasas_videos {
+    margin-left: 204px;
+}
+
+.feature_caption {
+        margin-left: 191px;
+}
+
+.view_more { 
+}
+.view_more a{
+    text-decoration: none;
+}
+
+.nasa_television {
+       
+    
+}
+
+.nasa_tv {
+     margin-left: 194px
+}
+
+.img_thumb2{
+    margin-top: -65px;
+}
+.interactive_features {
+    
+}
+
+.int_features {
+        margin-left: 178px;
+}
+
+.img_thumb3{
+        margin-top: -59px;
+}
+.img_thumb4{
+        margin-top: -78px
+}
+.podcast_vodcast {
+}
+
+.pod_vod {
+    margin-left: 178px;
+}
+
+.twiter {
+    min-height: 361px;
+    width: 351px;
+    position: absolute;
+    left: 854px;
+    margin-top: 5px;
+    background-color: #545453
+}
+
+.nasa_twit {
+}
+
+.nasa_updates {
+    width: 349px;
+    min-height: 168px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 854px;
+    top: 374px;
+    background-color: #545453
+}
+
+.updates_by_email {
+        color: white;
+}
+
+.text_field {
+        margin-top: 26px;
+    margin-left: 24px;
+    height: 27px
+}
+
+.button {
+        margin-left: 211px;
+    margin-top: -29px;
+}
+
+.wrapper_content_two {
+    position: relative;
+}
+
+.nasa_blog {
+    min-height: 192px;
+    width: 530px;
+    /* border: 1px solid red; */
+    top: 577px;
+    position: absolute;
+    background-color: #013162;
+    padding-left: 13px;
+    padding-bottom: 24px;
+    
+}
+
+.bolg_updates {
+        color: white;
+}
+
+.single_blog {
+        border: 1px solid blanchedalmond;
+    margin-left: -14px;
+}
+
+
+
+.blog_title {
+        font-size: 15pt;
+    padding: 9px 2px;
+}
+
+.date {
+}
+
+.blog_caption {
+}
+
+.nasa_calender {
+    min-height: 259px;
+    width: 297px;
+    position: absolute;
+    top: 577px;
+    left: 550px;
+    background-color: #015294;
+
+}
+
+.calendar {
+    color: white
+}
+
+.heading_data{
+    border: 1px solid black;
+}
+.prev {list-style: none;
+}
+
+.next {
+    list-style: none;
+    float: right;
+    margin-top: -23px;
+}
+
+.weekdays {}
+.weekdays li {
+      float: left;
+    margin-left: 23px;
+    list-style: none;
+    
+}
+
+.view_calender{
+        margin-top: 85px;
+    
+}
+.view_calender a{
+    text-decoration: none
+}
+.month_name{
+       list-style: none;
+    margin-left: 130px;
+    margin-top: -17px;
+}
+.days {}
+.days li {
+float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 17px;
+    margin-top: 32px;
+}
+
+.nasa_sidebar2 {
+    position: absolute;
+    left: 855px;
+    top: 548px
+}
+
+
+.more_blog_news{
+    margin-top: 33px;
+    
+}
+.sidebar_content {
+}
+
+.careers_nasa {
+background-color: #424242;
+    margin-left: 203px;
+    width: 146px;
+    margin-top: -375px;
+    color: lightgrey;
+    float: right;
+}
+
+.career_office {
+}
+
+.Explore_more {
+    min-height: 100px;
+    width: 541px;
+    position: absolute;
+    top: 947px;
+}
+
+.nasa_kids {
+        float: left;
+    background-color: #015294;
+    
+}
+
+.kids_items{}
+.kids_items li {
+    list-style: none;
+}
+.kids_items li a{
+text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.third_rock { width: 318px;
+    min-height: 110px;
+    position: absolute;
+    left: 211px;
+    background-color: #015294;
+    
+}
+.rock_list li {
+    list-style: none;
+}
+.rock_list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rocks_items {
+    color: white;
+}
+
+.nasa_leadership {
+    min-height: 200px;
+    width: 659px;
+    position: absolute;
+    top: 928px;
+    left: 549px;
+   background-color:#015294;
+}
+
+.leadership_heading {
+    color: white;
+    
+}
+
+.admin {
+     color: white;
+}
+
+.admin_heading {
+     color: white;
+}
+
+.admin_item {}
+.admin_item li{
+    list-style: none;
+}
+.admin_item li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.features_stories {
+    background-color:#015294; 
+}
+
+.feature_one {
+    position: absolute;
+    top: 1159px;
+    min-height: 100px;
+    width: 157px;
+    background-color: #015294;
+}
+
+.single_heading {
+    color: white;
+}
+
+.p_single_item {
+    color: white;
+}
+.single_item_more{}
+.single_item_more li{list-style: none;}
+.single_item_more li a{text-decoration: none;
+    color: white;}
+
+.feature_two {
+    position: absolute;
+    top: 1159px;
+    left: 170px;
+    width: 370px;
+     background-color: #015294;
+    
+}
+
+.style_f2{}
+.style_f2 li{
+        list-style: none;
+}
+.style_f2 li a{text-decoration: none;color: white}
+.feature_three {
+    position: absolute;
+    top: 1434px;
+    left: -1px;
+    width: 191px;
+     background-color: #015294;
+    
+}
+
+.style_f3{}
+.style_f3 li{
+    list-style: none;
+}
+.style_f3 li a{
+    text-decoration: none;
+    color: white;
+}
+.feature_four {
+    position: absolute;
+    top: 1433px;
+    left: 205px;
+    width: 272px;
+    background-color: #015294;
+}
+
+.style_f4{}
+.style_f4 li{
+    list-style: none;
+}
+.style_f4 li a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper_footer {
+    width: 1206px;
+    margin: 0px auto;
+    position: relative;
+    top: 1803px;
+    background-color: gray;
+    min-height: 167px;
+}
+
+.logo_footer{
+    position: absolute;
+}
+.page_update { 
+    position: absolute;
+    left: 141px;
+    top: 20px;
+    font-size: 6pt;
+}
+
+.update_info {
+}
+
+.information_one {
+    position: absolute;
+    left: 392px;
+    top: 19px;
+    font-size: 9pt;
+}
+
+.info_one {
+}
+.info_one li{
+    
+}
+.info_one li a{
+    text-decoration: none;
+    color: black;
+}
+
+.information_two {
+    position: absolute;
+    left: 789px;
+    top: 18px;
+    font-size: 9pt;
+}
+
+.info_two{}
+.info_two li{}
+.info_two li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    position: absolute;
+    left: 995px;
+    top: 19px;
+    font-size: 9pt
+}
+
+.contact_info {}
+.contact_info li{}
+.contact_info li a{
+    text-decoration: none;
+    color: black;
+}
